@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: aqua;
+   
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     height: 10vh;
+    
+}
+.elements li{
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 20px;
+    margin-left: 35px;
+  font-weight: bold;
+}
+.name {
+    font-size: 30px;
+    font-weight:bold ;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% auto ;
+    grid-template-rows: 50% auto;
+    height :90vh;
+  
+}
+.name-2{
+   
+    padding: 70px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    font-size: 20px;
+}
+.introduction{
+    padding-left: 7%;
+    font-size: 20px;
+}
+.photo1{
+    position: relative;
+   padding-left: 25% ;
+   height: 80%;
+   width: 80%;
+   padding-left: 40px;
+   padding-bottom: 100px;
+   
+}
+.photo{
+    grid-row-start:1;
+   grid-row-end: -1;
+   grid-column-start: 2;
+   grid-column-end: 3;
+}
+.myaccounts1{
+    display: flex;
+    gap: 10px;
+    padding-left: 15%;
+    list-style: none;
+}
+.instagram{
+    height: 80px;
+    border-radius: 50%;
+}
+.linkedin{
+    height:80px;
+    border-radius: 50%;
+}
+.facbook{
+    height: 80px;
+    border-radius: 50%;
+
+}
+.snapchat{
+    height: 80px;
+    border-radius: 50%;
+
+}
+.about-me{
+    padding-bottom: 300px;
+}
+.vashu{
+    padding-top: 50px;
+}
+.container-1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50px 50px 200px 100px ;
+    height: 60vh;
+}
+.image-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:5 ;
+
+}
+.heading-2{
+    padding-left: 33%;
+    font-size: 25px;
+    
+}
+.intro{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+.learning-material li{
+    font-size: 20px;
+    list-style: none;
+}
+.vid{ 
+width: auto;
+    height: 400px;
+    padding-right: 10px;
+    
+  }
+  .skills-section{
+    height: 80vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+
+  }
+  .skill-1{
+  flex-basis: 100px;
+  }
